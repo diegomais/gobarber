@@ -17,11 +17,11 @@ export const Content = styled.div`
   form {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 20px;
 
     input {
       height: 44px;
-      margin: 0 0 10px;
+      margin-top: 10px;
       padding: 0 15px;
       border: 0;
       border-radius: 4px;
@@ -33,9 +33,16 @@ export const Content = styled.div`
       }
     }
 
+    input + span {
+      align-self: flex-start;
+      margin: 5px 15px 0;
+      font-weight: bold;
+      color: #fb6f91;
+    }
+
     button {
       height: 44px;
-      margin-top: 5px;
+      margin-top: 10px;
       border: 0;
       border-radius: 4px;
       background: #3b9eff;
