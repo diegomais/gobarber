@@ -5,12 +5,17 @@ const initialState = {
 };
 
 export default (state = initialState, { type, payload }) => {
-  switch (type) {
-    case '@auth/SIGN_IN_SUCCESS':
-      return produce(state, draft => {
+  return produce(state, draft => {
+    switch (type) {
+      case '@auth/SIGN_IN_SUCCESS': {
         draft.profile = payload.user;
-      });
-    default:
-      return state;
-  }
+        break;
+      }
+      case '@user/UPDATE_PROFILE_SUCCESS': {
+        draft.profile = payload.profile;
+        break;
+      }
+      default:
+    }
+  });
 };
