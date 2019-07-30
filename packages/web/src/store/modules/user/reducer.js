@@ -15,6 +15,10 @@ export default (state = initialState, { type, payload }) => {
         draft.profile = payload.profile;
         break;
       }
+      case '@auth/SIGN_OUT': {
+        draft.profile = null;
+        break;
+      }
       default:
     }
   });

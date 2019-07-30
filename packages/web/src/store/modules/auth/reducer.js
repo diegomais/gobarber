@@ -23,6 +23,12 @@ export default (state = initialState, { type, payload }) => {
         draft.loading = false;
         break;
       }
+      case '@auth/SIGN_OUT': {
+        draft.token = null;
+        draft.signed = false;
+        draft.loading = false;
+        break;
+      }
       default:
     }
   });
