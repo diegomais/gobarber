@@ -28,6 +28,14 @@ The project uses [PostgreSQL](https://www.postgresql.org), [MongoDB](https://www
 
 We recommend use [Docker](https://www.docker.com) to install and run the databases and services above.
 
+1. Install [Docker Desktop](https://www.docker.com/get-started).
+2. Start a PostgreSQL instance:
+`docker run --name gobarber-pg -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres`
+3. Start a MongoDB instance:
+`docker run --name gobarber-mongo -p 27017:27107 -d mongo`
+4. Start a Redis instance:
+`$ docker run --name gobarber-redis -p 6379:6379 -d redis`
+
 ### Back-end
 
 * To download the project follow the instructions bellow:
