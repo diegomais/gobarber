@@ -54,7 +54,7 @@ The project can be built with npm or Yarn, so choose one of the approach bellow 
 
 You can obtain the project by running the instruction bellow on your terminal:
 
-`git clone https://github.com/diegomais/meetapp.git`
+`git clone https://github.com/diegomais/gobarber.git`
 
 #### Setting up Databases and Services
 
