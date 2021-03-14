@@ -14,7 +14,7 @@
     "date-fns": "^2.16.1",
     "immer": "^8.0.1",
     "prop-types": "^15.7.2",
-    "react": "16.8.6",
+    "react": "16.14.0",
     "react-native": "0.60.4",
     "react-native-gesture-handler": "^1.9.0",
     "react-native-linear-gradient": "^2.5.6",
