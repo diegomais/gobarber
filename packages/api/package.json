@@ -10,7 +10,7 @@
   "dependencies": {
     "@sentry/node": "5.30.0",
     "bcryptjs": "^2.4.3",
-    "bee-queue": "^1.2.2",
+    "bee-queue": "^1.4.0",
     "cors": "^2.8.5",
     "date-fns": "^2.21.2",
     "dotenv": "^8.4.0",
