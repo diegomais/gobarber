@@ -23,7 +23,7 @@
     "nodemailer": "^6.6.1",
     "nodemailer-express-handlebars": "^3.0.0",
     "pg": "^7.11.0",
-    "pg-hstore": "^2.3.3",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^5.22.4",
     "youch": "^2.2.2",
     "yup": "^0.32.8"
