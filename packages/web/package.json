@@ -11,8 +11,8 @@
     "immer": "8.0.4",
     "polished": "3.4.1",
     "prop-types": "15.7.2",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-icons": "3.7.0",
     "react-perfect-scrollbar": "1.5.8",
     "react-redux": "7.1.0",
@@ -60,7 +60,7 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-prettier": "3.1.0",
     "eslint-plugin-react": "7.23.2",
-    "eslint-plugin-react-hooks": "1.6.1",
+    "eslint-plugin-react-hooks": "1.7.0",
     "prettier": "1.19.1",
     "react-app-rewired": "2.1.8"
   }
