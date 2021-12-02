@@ -6,7 +6,7 @@
     "@rocketseat/unform": "1.6.2",
     "axios": "0.24.0",
     "date-fns": "2.27.0",
-    "date-fns-tz": "1.1.4",
+    "date-fns-tz": "1.1.6",
     "history": "4.10.1",
     "immer": "8.0.4",
     "polished": "3.7.2",
