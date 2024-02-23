@@ -29,7 +29,7 @@
     "yup": "^0.32.8"
   },
   "devDependencies": {
-    "eslint": "5.16.0",
+    "eslint": "8.57.0",
     "eslint-config-airbnb-base": "13.2.0",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-import": "2.25.3",
