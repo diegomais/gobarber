@@ -33,7 +33,7 @@
   "devDependencies": {
     "@babel/core": "7.5.5",
     "@babel/runtime": "7.5.5",
-    "@react-native-community/eslint-config": "0.0.5",
+    "@react-native-community/eslint-config": "0.0.7",
     "babel-eslint": "10.0.2",
     "babel-jest": "24.9.0",
     "babel-plugin-root-import": "6.6.0",
@@ -50,7 +50,7 @@
     "jetifier": "1.6.8",
     "metro-react-native-babel-preset": "0.55.0",
     "prettier": "1.19.1",
-    "react-test-renderer": "16.8.6"
+    "react-test-renderer": "16.14.0"
   },
   "jest": {
     "preset": "react-native"
